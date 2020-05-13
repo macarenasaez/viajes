@@ -137,7 +137,7 @@ padding: 25px;
    margin: 3em 0 1.5em 0;
 }
 .recommend  .upperRow{
-    border: solid black 1px;
+
     width: 80%;
     margin: 0 15px;
     padding: 50px;
@@ -147,7 +147,7 @@ padding: 25px;
 }
 .recommend-item{
 width: 100%;
-border: solid black 1px;
+
 box-sizing: border-box;
 font-family: "Montserrat", sans-serif;
 line-height: 18.4px;
@@ -162,7 +162,7 @@ outline-width: 0px;
 }
 
 .row{
-    border: solid black 1px;
+    
     width: 80%;
     margin: 0 10% 5em;
     display: grid;
@@ -243,4 +243,116 @@ button{
 button a{
     color: blanchedalmond;
     font-size: 25px;
+}
+
+.interviewHeader h2 {
+    font-weight: 300;
+    font-size: 3em;
+    margin-bottom: 1.5em;
+
+}
+
+.interviews{
+
+display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-gap: 2em;
+    margin: 0 10em;
+    margin-bottom: 3em;
+}
+.interviews img{
+    width: 100%;
+}
+.interviews p{
+    font-weight: 300;
+    margin: 0.5em 0;
+    width: 90%;
+    padding: 2px 8px;
+}
+.interviews h2{
+    font-family: ptSerif-medium, serif;
+    padding: 0 11px 8px 8px;
+}
+.cta-interview{
+    width: 100vw;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.newsletter{
+width: 100vw;
+height: 50vh;
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 0.5fr 1fr;
+justify-items: center;
+background-color: #F6F6F6;
+
+}
+
+.newsletter-header{
+    width: 100%;
+text-align: center;
+margin-bottom: 2em;
+}
+.newsletter-header h2{
+
+    font-family: ptSerif-medium, serif;
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+}
+.newsletter-header p{
+    font-weight: 300;
+    font-style: italic;
+}
+
+.hubspot-form{
+
+    width: 50%;
+    
+}
+form input{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.footer{
+
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-content: center;
+padding: 3em 5em;
+}
+
+.footer-logo img{
+    height: 100px;
+    width: 250px;
+   
+
+} 
+.footer-icons{
+    width: 20vw;
+display: flex;
+justify-content: right;
+border-top: 2px solid #000;
+}
+.footer-icons img{
+    margin-left: 7px;
+    width: 1.3rem;
+}
+.footer-icons a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media  screen and (max-width:1024)and (min-width:761px){
+    
+}
+@media only screen and (max-width: 1024px) and (min-width: 761px){
+
 }
